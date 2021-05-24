@@ -85,5 +85,5 @@ stages:
             displayName: 'Azure App Service Deploy: website'
             inputs:
               azureSubscription: 'Abraxas Intelligence Azure Subscription'
-              appName: '$(WebAppName)'
+              appName: 'tailspin-space-game-mandarinF'
               package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'
